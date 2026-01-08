@@ -1,7 +1,6 @@
 package com.akeel.jectpackapp
 
 import android.os.Bundle
-import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
@@ -86,20 +85,19 @@ fun Counter(modifier: Modifier) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        /*Text(text = "Count: $count")
+        Text(text = "Count: $count")
         Button(onClick = { count++ }) {
-            Text("Increase")*/
+            Text("Increase")
 
-            var count = 0
+           /* var count = 0
 
             Button(onClick = { count++ }) {
-                Log.d("Counter", "Count: $count")
                 Text(text = "Count: $count")
-            }
+            }*/
 
         }
     }
-
+}
 
 
 @Preview(showBackground = true)
