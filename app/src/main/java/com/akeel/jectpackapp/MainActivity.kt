@@ -106,6 +106,7 @@ fun Counter(modifier: Modifier) {
         Switch(checked = checked, onCheckedChange = { checked = it })
         Switch(checked = checked, onCheckedChange = { checked = it })
         Switch(checked = checked, onCheckedChange = { checked = it })
+        Switch(checked = checked, onCheckedChange = { checked = it })
 
 
     }
